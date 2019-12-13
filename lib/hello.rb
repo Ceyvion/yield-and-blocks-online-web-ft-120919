@@ -1,7 +1,11 @@
 def hello_t(array)
   if block_given?
-    yield(array, index)
-    puts name 
+    counter = 0 
+    yield(array[counter])
+    counter += 1 
+    break if counter = array.length - 1 
+    array 
+    
    else 
     puts "Hey! No block was given!"
   end 
