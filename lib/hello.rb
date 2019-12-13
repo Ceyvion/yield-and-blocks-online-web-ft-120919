@@ -4,7 +4,6 @@ def hello_t(array)
     puts name 
   else 
     puts "Hey! No block was given!"
-    end 
   end 
 end
 
