@@ -3,13 +3,9 @@ def hello_t(array)
     array.each do |name|
     puts name 
   else 
-  
-  
-  
+    puts "Hey! No block was given!"
+   end 
   end 
-
-
-
 end
 
 
