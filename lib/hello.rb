@@ -3,7 +3,7 @@ def hello_t(array)
     counter = 0 
     yield(array[counter])
     counter += 1 
-    break if counter = array.length - 1 
+    while counter < array.length  
     array 
     
    else 
